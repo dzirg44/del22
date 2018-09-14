@@ -7,8 +7,8 @@ What is [Stomp](https://stomp.github.io/)?
 ## Installing
 
 ```
-  $ composer config repositories.amq-stomp vcs https://github.com/SignNowInc/amq-stomp;
-  $ composer require SignNowInc/amq-stomp:^0.2;
+  $ composer config repositories.amq-stomp vcs https://github.com/dzirg44/del22;
+  $ composer require dzirg44/del22:^0.2;
 
 ```
 
