@@ -1,0 +1,42 @@
+{
+  "name": "SignNowInc/amq-stomp",
+  "description": "ActiveMQ stomp Library",
+  "keywords": [
+    "ActiveMQ",
+    "queue"
+  ],
+  "type": "library",
+  "license": "proprietary",
+
+  "authors": [
+    {
+      "name": "Valentin Nikolaev",
+      "email": "nikolaev.valentin@pdffiller.team",
+      "role": "Developer"
+    }
+  ],
+
+  "require-dev": {
+    "phpunit/phpunit": "~5.7"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "SignNow\\AmqStomp\\": "src/"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "SignNow\\AmqStomp\\Tests\\": "tests/"
+    }
+  },
+
+  "config": {
+    "sort-packages": true
+  },
+
+  "scripts": {
+    "test": "vendor/bin/codecept run"
+  }
+}
